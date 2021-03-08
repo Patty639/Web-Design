@@ -1,0 +1,32 @@
+body{margin:0; padding:0;}
+
+div.mygrid{
+  min-height:100vh;
+  display: grid;
+  padding:10px;
+  margin:20px;
+}
+
+img.myimg{
+  display: block;
+  width:80%;
+  height:80%;
+  background-color: DarkGoldenRod;
+  margin:20px;
+  object-fit: contain;
+  align-self: center;
+  justify-self:center;
+}
+
+div.rtf{
+  width:80%;
+  max-width:60ch;
+  margin:20px;
+  background-color: DarkSlateGray;
+  color:white;
+
+  line-height:1.3em;
+  align-self:center;
+  justify-self:center;
+  padding:3em;
+}
