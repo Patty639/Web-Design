@@ -1,0 +1,19 @@
+body{background-color: #44C5D5; margin:0; padding:0;}
+
+img.mountainrange{
+
+}
+
+div.mainframe{max-width:1200px; margin:0 auto;
+}
+
+div.slide{min-height:100vh;
+}
+
+div.hero{
+  background-image: url(fly/mountainrange.jpg);
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-size:cover;
+  position:relative;
+}

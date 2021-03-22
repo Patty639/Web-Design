@@ -47,3 +47,42 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+body{margin:10px; padding:0;}
+
+div.grid{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:15px;
+	min-height:200vh;
+}
+
+div.card{
+	background:DarkSeaGreen;
+	padding:10px 20px 20px 20px;
+	position:relative;
+}
+
+div.spanningelementcolumn{
+	grid-column-start:1; grid-column-end:4;
+}
+
+div.spanningelementrow{
+	grid-row-start:2; grid-row-end:8;
+}
+
+div.salt{
+	padding:10px;
+	position: fixed;
+	right:40px;
+	bottom:40px;
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	display:grid;
+	z-index:100;
+	background: fuchsia;
+}
+
+div.cardtext{padding:150px 0; text-align:center; }
+
+div.text{align-self:center; justify-self:center; color:gold;}
