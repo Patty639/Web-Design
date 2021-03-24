@@ -1,19 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+}
 body{background-color: #44C5D5; margin:0; padding:0;}
+.mainframe{max-width:1200px; margin:auto;}
 
-img.mountainrange{
+.slide{min-height:100vh;}
+.blue{background:#ADD8E6;}
+.pink{background:#F08080;}
+.yellow{background:#F5DEB3;}
 
-}
-
-div.mainframe{max-width:1200px; margin:0 auto;
-}
-
-div.slide{min-height:100vh;
-}
-
-div.hero{
-  background-image: url(fly/mountainrange.jpg);
+.topimg{
   background-repeat:no-repeat;
-  background-position:center center;
+  background-position: center center;
   background-size:cover;
   position:relative;
+}
+
+.topimg-txt{
+  position:absolute;
+  color:#fff;
+  top:5%;
+  left:12%;
+  width:80%;
+}
+
+.topimg-txt h1{
+  font-size:6em;
+  font-family:Verdana;
+  font-weight: bold;
+  margin: auto;
+}
+
+.topimg-txt p{
+  font-size:2em;
 }
