@@ -28,32 +28,65 @@ div.slide{min-height:100vh;padding:1px;}
       }
 
       body.rtf h1{
-        font-size:2.4em;
+        font-size:4em;
         line-height:1.4em;
         font-weight: bold;
         margin:0 0 1.4em 0;
       }
+
+								h1.chickflypants{
+					        font-size:4em;
+					        font-family:Verdana;
+
+					      }
+
       body.rtf h2{
-        font-size:1.6em;
+        font-size:2em;
         line-height:1.4em;
         font-weight: bold;
         margin:0 0 1.4em 0;
       }
+
+							h2.textcenter{
+								text-align: center;
+								padding-top:20px;
+							}
+
+							h2.freedomtogo{
+				        color:#000;
+				        padding-top:340px;
+
+				      }
+
       body.rtf h3{
         font-size:1.2em;
         line-height:1.4em;
         margin:0 0 1.4em 0;
       }
+
+							h3.testheader{
+								font-weight: bold;
+								min-height: 60px;
+							}
+
       body.rtf h5{
         font-size:1em;
         line-height:1.4em;
         margin:0 0 1.8em 0;
       }
+
       body.rtf p{
         font-size:1em;
         line-height:1.4em;
         margin:0 0 1.8em 0;
       }
+
+							p.testparagraph{
+								font-style: italic;
+								min-height: 60px;
+								text-align:left;
+							}
+
 
       div.topimg-txt{
         position:relative;
@@ -61,21 +94,8 @@ div.slide{min-height:100vh;padding:1px;}
         text-align: center;
       }
 
-      div.topimg-txt h1{
-        font-size:4em;
-        font-family:Verdana;
-        font-weight: bold;
-        margin: auto;
-      }
 
-      div.topimg-txt h2{
-        color:#000;
-        font-size:2em;
-        font-family:Verdana;
-        font-weight:bold;
-        padding-top:340px;
-        margin:auto;
-      }
+
 
       div.secondslidetxt{
         position:relative;
@@ -98,7 +118,6 @@ div.slide{min-height:100vh;padding:1px;}
 
       }
 
-
     div.topimg{
       text-align:center;
       background-repeat:no-repeat;
@@ -117,50 +136,59 @@ div.slide{min-height:100vh;padding:1px;}
       background-size:cover;
     }
 
-
     img.explanation{
-      object-position: center;
+      text-align:center;
       width:80%;
     }
 
-img.pockets{
-  width:30vw;
-}
+		img.pockets{
+		  width:30vw;
+		}
 
+		img.createdby{
+			width:30vw;
+		}
+
+		img.testimonalpic{
+				width:min(max(20vw,100px),200px); height:min(max(20vw,100px),200px);
+        object-fit:cover;
+        object-position:top center;
+        border-radius:50%;
+				padding-bottom: 20px;
+				margin: 0 auto;
+      }
+
+			img.whitejacket{
+				text-align:center;
+	      background-repeat:no-repeat;
+	      background-position: top center;
+	      background-size: cover;
+				padding-top:20px;
+			}
 
 div.button a{
 
       display:inline-block;
       margin-top:1em;
+			margin-bottom:2em;
       position: relative;
 
       text-decoration: none;
       box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
       font-family:Verdana;
       font-weight:bold;
-      font-size:1.25vw;
+
       background-color:white;
       border-radius:10px;
-      padding:2vw 5vw;
+      padding:15px 20px;
 
       color:#000;
 }
 
 div.button2 a{
-      display:inline-block;
+
       margin-top:45em;
-      position: relative;
 
-      text-decoration: none;
-      box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
-      font-family:Verdana;
-      font-weight:bold;
-      font-size:1.25vw;
-      background-color:white;
-      border-radius:10px;
-      padding:2vw 5vw;
-
-      color:#000;
 }
 
 div.button-blue a{
@@ -175,7 +203,7 @@ div.txtholder{
   padding:20px;
 
   background:#8ED5E5;
-  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.38);
 }
 
 div.txtholder-white{
@@ -186,6 +214,31 @@ div.skinny{
   max-width: 40%;
 }
 
+div.cardholder{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:10px;
+}
+
+div.card{
+	background:#8ED5E5;
+
+	padding:20px;
+	text-align:center;
+}
+
+div.leftcard{
+	padding-left: 40px;
+}
+
+div.rightcard{
+	padding-right: 40px;
+}
+
+div.bottom{
+	object-position: bottom;
+}
+
 div.grid2col{
         display:grid;
         grid-template-columns:1.5fr 1fr;
@@ -194,7 +247,3 @@ div.grid2col{
 
 div.lightblue{background:#8ED5E5;}
 div.white{background:white;}
-div.lightblue{background:#8ED5E5;}
-div.white{background:white;}
-div.lightblue{background:#8ED5E5;}
-div.lightblue{background:#8ED5E5;}
