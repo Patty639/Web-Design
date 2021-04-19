@@ -37,6 +37,7 @@ div.slide{min-height:100vh;padding:1px;}
 								h1.chickflypants{
 					        font-size:4em;
 					        font-family:Verdana;
+									margin:0 auto;
 
 					      }
 
@@ -44,7 +45,7 @@ div.slide{min-height:100vh;padding:1px;}
         font-size:2em;
         line-height:1.4em;
         font-weight: bold;
-        margin:0 0 1.4em 0;
+        margin:0 0 .75em 0;
       }
 
 							h2.textcenter{
@@ -54,7 +55,7 @@ div.slide{min-height:100vh;padding:1px;}
 
 							h2.freedomtogo{
 				        color:#000;
-				        padding-top:340px;
+				        padding-top:375px;
 
 				      }
 
@@ -78,7 +79,7 @@ div.slide{min-height:100vh;padding:1px;}
       body.rtf p{
         font-size:1em;
         line-height:1.4em;
-        margin:0 0 1.8em 0;
+        margin:0 0 1em 0;
       }
 
 							p.testparagraph{
@@ -123,6 +124,8 @@ div.slide{min-height:100vh;padding:1px;}
 
     img.logoimg{
       width:10%;
+			padding:20px;
+
     }
 
     div.secondimg{
@@ -200,7 +203,7 @@ div.button-blue a{
 div.txtholder{
   max-width: 80%;
   min-height:30vh;
-  height:100vh;
+  height:80%;
   margin:20px auto 40px auto;
   padding:20px;
 
